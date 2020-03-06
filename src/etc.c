@@ -1,3 +1,4 @@
+#ifndef _WIN32
 #include <grp.h>
 #include <mruby.h>
 #include <mruby/array.h>
@@ -150,3 +151,4 @@ void mrb_mruby_etc_gem_init(mrb_state *mrb) {
 
 void mrb_mruby_etc_gem_final(mrb_state *mrb) {
 }
+#endif
